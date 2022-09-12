@@ -8,7 +8,7 @@ const DB_CLUSTER=process.env.DB_CLUSTER
 const configMySql = {
     client: 'mysql',
     connection: {
-        host: '127.0.0.1',
+        //host: '0.0.0.0',
         user: 'root',
         password: '',
         database: 'backend-desafio16'
@@ -18,9 +18,7 @@ const configMySql = {
 const database = knex(configMySql)
 
 const mongodb = {
-//    connectionString: "mongodb://localhost:27017/desafio22",
     connectionString: `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_CLUSTER}.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`
-    //connectionString: "mongodb+srv://mongodba:7ANW9tHm5OT7UHi4@cluster0.vtuqq.mongodb.net/desafio26?retryWrites=true&w=majority",
     }
 
 module.exports = { database, mongodb }
