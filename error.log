@@ -9,3 +9,5 @@
 {"level":"error","message":"timestamp: 1662991840722 - Product table - Error: Error: connect ECONNREFUSED 127.0.0.1:3306"}
 {"level":"error","message":"timestamp: 1662991898067 - Product table - Error: Error: connect ECONNREFUSED 127.0.0.1:3306"}
 {"level":"error","message":"timestamp: 1663023765317 - Product table - Error: Error: connect ECONNREFUSED 127.0.0.1:3306"}
+{"level":"error","message":"timestamp: 1663024486380 - Product table - Error: Error: connect ECONNREFUSED 127.0.0.1:3306"}
+{"level":"error","message":"timestamp: 1663025041813 - Product table - Error: Error: connect ECONNREFUSED 127.0.0.1:3306"}
