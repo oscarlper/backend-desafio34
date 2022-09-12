@@ -42,7 +42,6 @@ if (isCluster && cluster.isPrimary) {
 } else {
     expressServer = app.listen(PORT, () => 
     console.log(`Server listening on port ${PORT}`))
-    console.log(typeof expressServer)
 
     const io = new IOServer(expressServer)
 
