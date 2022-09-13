@@ -24,7 +24,7 @@ const api = require('./apis/index')
 app.use('/', api)
 
 const cpus = os.cpus()
-const PORT = process.env.port || Number(process.argv[2]) || 3000
+const PORT = process.env.PORT || Number(process.argv[2]) || 3000
 const isCluster = process.argv[3] == 'cluster'
 
 if (isCluster && cluster.isPrimary) {
