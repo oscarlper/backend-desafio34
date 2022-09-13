@@ -25,3 +25,4 @@
 {"level":"error","message":"timestamp: 1663038994539 - Product table - Error: Error: getaddrinfo ENOTFOUND 192.168.0.i11"}
 {"level":"error","message":"timestamp: 1663039001289 - Product table - Error: Error: ER_BAD_DB_ERROR: Unknown database 'backend-desafio16'"}
 {"level":"error","message":"timestamp: 1663039308651 - Product table - Error: Error: connect ETIMEDOUT"}
+{"level":"error","message":"timestamp: 1663105849213 - Product table - Error: Error: connect ETIMEDOUT"}

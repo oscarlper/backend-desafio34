@@ -9,7 +9,7 @@ const configMySql = {
     client: 'mysql',
     connection: {
         //host: '192.168.0.11',
-        host: 'ha.opvc.cloudns.cc',
+        host: '181.47.105.185',
         user: 'root',
         password: 'coderhouseroot!.',
         //database: 'backend-desafio16'
