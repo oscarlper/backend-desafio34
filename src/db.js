@@ -8,12 +8,10 @@ const DB_CLUSTER=process.env.DB_CLUSTER
 const configMySql = {
     client: 'mysql',
     connection: {
-        //host: '192.168.0.11',
-        host: '181.47.105.185',
-        user: 'root',
-        password: 'coderhouseroot!.',
-        //database: 'backend-desafio16'
-        database: 'coderhouse'
+        database: 'coderhouse',
+        host: process.env.MYSQLDB,
+        user: process.env.MYSQLUSER,
+        password: process.env.MYSQLPASS,
     },
     "pool": { "min": 2, "max": 600}
 }
