@@ -12,6 +12,7 @@ function getLogin(req, res) {
       nombre: user.firstName,
       apellido: user.lastName,
       email: user.email,
+      mode: process.env.MODE || 'TEST',
     });
   } else {
     console.log("user NO logueado");
