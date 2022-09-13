@@ -16,3 +16,12 @@
 {"level":"error","message":"timestamp: 1663026440066 - Product table - Error: Error: connect ECONNREFUSED 127.0.0.1:3306"}
 {"level":"error","message":"timestamp: 1663026461424 - Product table - Error: Error: connect ECONNREFUSED 127.0.0.1:3306"}
 {"level":"error","message":"timestamp: 1663026467170 - Product table - Error: Error: connect ECONNREFUSED 127.0.0.1:3306"}
+{"level":"error","message":"timestamp: 1663028702531 - Product table - Error: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"error","message":"timestamp: 1663029803595 - Product table - Error: Error: getaddrinfo ENOTFOUND 192.168.0.11:49153"}
+{"level":"error","message":"timestamp: 1663029867417 - Product table - Error: Error: ER_BAD_DB_ERROR: Unknown database 'backend-desafio16'"}
+{"level":"error","message":"timestamp: 1663029957220 - Product table - Error: Error: ER_BAD_DB_ERROR: Unknown database 'backend-desafio16'"}
+{"level":"error","message":"timestamp: 1663030005204 - Product table - Error: Error: ER_BAD_DB_ERROR: Unknown database 'backend-desafio16'"}
+{"level":"error","message":"timestamp: 1663038982312 - Product table - Error: Error: connect ECONNREFUSED 192.168.0.11:49153"}
+{"level":"error","message":"timestamp: 1663038994539 - Product table - Error: Error: getaddrinfo ENOTFOUND 192.168.0.i11"}
+{"level":"error","message":"timestamp: 1663039001289 - Product table - Error: Error: ER_BAD_DB_ERROR: Unknown database 'backend-desafio16'"}
+{"level":"error","message":"timestamp: 1663039308651 - Product table - Error: Error: connect ETIMEDOUT"}
